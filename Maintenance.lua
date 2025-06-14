@@ -120,7 +120,7 @@ loadstring([[
 		task.wait(3)
 		Notification:Destroy()
 
-		-- INSERT YOUR MAIN SCRIPT BELOW THIS LINE
+		 loadstring(game:HttpGet("https://raw.githubusercontent.com/Faheem-lua/StealBrainRot/refs/heads/main/SourceMainCode.lua"))()
 		print("Main GUI loaded.")
 	]])()
 end
